@@ -1,0 +1,60 @@
+html {
+  scroll-padding: 120px;
+}
+
+.my-nav-item {
+  font-weight: 900;
+}
+/* .hello {
+  background-color: black;
+  color: aliceblue;
+} */
+.my-carousel {
+  padding-top: 106px;
+}
+.product-desc {
+  height: 80px;
+  overflow-y: auto;
+}
+.card {
+  height: 100% !important;
+}
+.apps {
+  background-image: url("https://static.kfcvietnam.com.vn/images/content/home/mobileappbanner/lg/banner.jpg?v=XgqM7g");
+  height: 389px;
+  margin-top: 50px;
+}
+
+.button-app {
+  width: fit-content;
+  padding-top: 200px;
+}
+@media (width < 972px) {
+  .my-carousel {
+    height: 345px;
+  }
+  .carousel-inner {
+    height: 100%;
+  }
+  .my-carousel .carousel-item {
+    height: 100%;
+  }
+  .carousel-item img {
+    height: 100%;
+  }
+}
+
+@media (width < 468px) {
+  .my-carousel {
+    height: 325px;
+  }
+  .carousel-inner {
+    height: 100%;
+  }
+  .my-carousel .carousel-item {
+    height: 100%;
+  }
+  .carousel-item img {
+    height: 100%;
+  }
+}

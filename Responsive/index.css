@@ -1,0 +1,40 @@
+.hello {
+  color: aliceblue;
+}
+/* co dinh */
+.h1234321 {
+  color: rgba(0, 94, 255, 0.443);
+  background-color: rgb(128, 172, 198);
+  height: 1300px;
+  width: 2000px;
+}
+/* may tinh bang co lon */
+@media (width < 1200px) {
+  .h1234321 {
+    width: 100%;
+    height: 1300px;
+    color: rgb(119, 35, 198);
+    background-color: rgba(171, 138, 202, 0.869);
+  }
+  .hello {
+    font-size: 100px;
+  }
+}
+/* may tinh bang co nho */
+@media (width < 972px) {
+  .h1234321 {
+    width: 100%;
+    height: 999px;
+    color: palevioletred;
+    background-color: pink;
+  }
+}
+/* dien thoai */
+@media (width < 468px) {
+  .h1234321 {
+    width: 100%;
+    height: 500px;
+    color: rgb(15, 146, 46);
+    background-color: rgb(157, 219, 152);
+  }
+}
