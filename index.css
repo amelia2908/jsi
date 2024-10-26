@@ -58,3 +58,21 @@ html {
     height: 100%;
   }
 }
+
+button.btn-them {
+  background-color: rgb(208, 7, 7) !important;
+  color: aliceblue !important;
+  border-radius: 4px !important;
+}
+
+.card-title {
+  font-size: 16px;
+}
+/* the slides */
+.slick-slide {
+  margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+  margin: 0 -10px;
+}

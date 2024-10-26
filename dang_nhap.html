@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="dang_nhap.css" />
+    <title>Đăng nhập</title>
+  </head>
+  <body>
+    <div class="box">
+      <img
+        class="logo"
+        src="https://mystickermania.com/cdn/stickers/logo/kfc-lego-logo-512x512.png"
+        alt=""
+      />
+      <h1 class="heading">Đăng nhập</h1>
+      <form id="formlogin">
+        <input
+          type="number"
+          name="phone"
+          id="phone"
+          placeholder="Phải nhập số điện thoại vào đây"
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Phải nhập mật khẩu vào đây"
+        />
+        <button
+          class="password-button"
+          id="show-password-btn"
+          type="button"
+        >
+          show password
+        </button>
+        <button
+          class="password-button"
+          id="hide-password-btn"
+          type="button"
+        >
+          hide password
+        </button>
+        <button class="button" type="submit">
+          Đăng nhập
+        </button>
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./dang_nhap.js"></script>
+  </body>
+</html>

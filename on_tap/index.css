@@ -1,0 +1,43 @@
+.red {
+  color: red;
+  font-weight: 100;
+}
+.a700 {
+  font-weight: 700;
+  font-size: 70px;
+}
+.b400 {
+  font-weight: 600;
+}
+.hinh {
+  border: 5px solid green;
+  /* Đường viền dày 5px, màu đen */
+  border-radius: 50%;
+  width: 500px;
+  /* Đặt kích thước chiều ngang */
+  height: 500px;
+  /* Đặt kích thước chiều dọc */
+  object-fit: cover;
+  /* Cắt phần hình ảnh bị thừa nếu cần */
+  transition: border-color 0.3s;
+  /* Thêm hiệu ứng chuyển màu mượt mà */
+}
+.hinh:hover {
+  opacity: 0;
+  /* Đảm bảo không thấy phần tử */
+  border-color: pink;
+  /* Đổi màu đường viền khi hover */
+  /* border-radius: 0%; */
+}
+.red4 {
+  color: red;
+  font-weight: 400;
+}
+.red5 {
+  color: red;
+  font-weight: 400;
+}
+.red6 {
+  color: red;
+  font-weight: 900;
+}
